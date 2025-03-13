@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
 nav .container-fluid{
     background-color: black;
     padding-top: 1%;
@@ -15,6 +17,10 @@ hr{
     border-color: white;
     margin: 0;
     border-width: thin;
+}
+
+.navbar-brand{
+    font-family: "Playwrite IT Moderna", sans-serif;
 }
 
 .navbar-brand, .nav-link{
@@ -48,9 +54,53 @@ hr{
 
 .collapse .btn:hover{
     background-color: rgb(62, 62, 77);
+    color: white;
+}
+
+.mainBox .btn{
+    border:none;
+    background-color: white;
+    color: black;
+    transition: background-color 0.2s ease-in-out; 
+}
+
+.mainBox .btn:hover{
+    background-color: rgb(62, 62, 77);
     border:none;
     color: white;
 }
+
+.containerPhoto{
+    position: relative; 
+    display: inline-block;
+}
+
+.containerPhoto .btn-outline-success{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o botão */
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    opacity: 0; /* Esconde o botão por padrão */
+    transition: opacity 0.3s ease;
+}
+
+.containerPhoto:hover .btn{
+    opacity: 1;
+}
+
+.containerPhoto .btn:hover{
+    background-color: rgb(62, 62, 77);
+    color: white;
+    transition: background-color 0.2s ease-in-out; 
+}
+
+.containerPhoto:hover img {
+    filter: brightness(50%); /* Escurece a imagem */
+  }
 
 .mainBox{
     background-color: black;
@@ -119,9 +169,8 @@ section.content{
     padding-bottom: 5%;
 }
 
-.img-thumbnail {
-    width: 90%;
-    height: -webkit-fill-available;
+nav .img{
+    width: 10%;
 }
 
 .text ul {
@@ -137,4 +186,52 @@ section.content{
 ul {
     list-style: inside;
     list-style-type: disclosure-closed;
+}
+
+section .container-fluid {
+    text-align: center;
+    padding: 5%;
+    border-bottom: 1px solid white;
+}
+
+.img-thumbnail {
+    object-fit: cover;
+    width: 80%;
+    height: 250px;
+}
+
+.Valentina .container-fluid {
+    justify-items: center;
+}
+
+.img-fluid {
+    width: 70%;
+    margin: 5%;
+    height: auto;
+}
+
+.card{
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+.Valentina {
+    background-color:black;
+}
+
+.card-title {
+    margin-top: 5%;
+}
+
+.card-text{
+    font-size: 17px;
+}
+
+p.card-text.primeiroTexto {
+    text-align: justify;
+}
+
+.card-body{
+    padding-right: 5%;
 }
