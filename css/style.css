@@ -197,7 +197,7 @@ section .container-fluid {
 .img-thumbnail {
     object-fit: cover;
     width: 80%;
-    height: 250px;
+    height: 100%;
 }
 
 .Valentina .container-fluid {
