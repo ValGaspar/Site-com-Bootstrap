@@ -124,7 +124,8 @@ hr{
   }
 
 .mainBox{
-    background-color: black;
+    background: rgb(7,28,74);
+    background: radial-gradient(circle, rgba(7,28,74,1) 17%, rgba(0,0,0,1) 77%);
     border-bottom: 1px solid white;
 }
 
@@ -158,6 +159,7 @@ section .container-fluid{
 .btn-group .btn {
     background-color: transparent;
     border: none;
+    text-align: left;
     font-weight: 500; 
     font-size: 15px;
 }
@@ -167,6 +169,8 @@ section .container-fluid{
   }
 
 .mainBox .btn-group{
+    background-color: black;
+    /* width: 100%; */
     font-size: 16px;
     font-weight: 500; 
     padding: 1%;
@@ -212,7 +216,7 @@ ul {
 section .container-fluid {
     text-align: center;
     padding: 5%;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 
 .img-thumbnail {
@@ -238,7 +242,7 @@ section .container-fluid {
 }
 
 .Valentina {
-    background-color:black;
+    background-color: black;
 }
 
 .card-title {
