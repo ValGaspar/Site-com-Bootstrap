@@ -12,6 +12,10 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
     padding: 0;
 }
 
+nav .btn:hover{
+    border:none;
+}
+
 hr{
     padding: 0;
     border-color: white;
@@ -61,6 +65,11 @@ hr{
 .collapse .btn:hover{
     background-color: rgb(62, 62, 77);
     color: white;
+}
+
+.textoP{
+    width:100%;
+    justify-items: center;
 }
 
 .mainBox .btn-primary{
@@ -133,8 +142,10 @@ section .container-fluid{
 }
 
 .caixaTexto p{
-    font-size: 20px;
+    text-align: center;
+    font-size: 18px;
     font-weight: 500;
+    width: 70%;
 }
 
 .caixaTexto h1{
@@ -146,8 +157,7 @@ button.btn.btn-secondary.btn-sm.dropdown-toggle {
     background-color: transparent;
     border: none;
     font-weight: 500; 
-    padding-left: 100%;
-    padding-bottom: 10%;
+    padding: 20%;
     font-size: 15px;
 }
 
@@ -162,7 +172,7 @@ button.btn.btn-secondary.btn-sm.dropdown-toggle {
 
 .mainBox span{
     color: white;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .content .row{
