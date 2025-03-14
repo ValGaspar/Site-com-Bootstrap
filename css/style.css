@@ -147,7 +147,7 @@ section .container-fluid{
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-    width: 60%;
+    /* width: 60%; */
 }
 
 .caixaTexto h1{
@@ -155,11 +155,10 @@ section .container-fluid{
     font-size: 60px;
 }
 
-button.btn.btn-secondary.btn-sm.dropdown-toggle {
+.btn-group .btn {
     background-color: transparent;
     border: none;
     font-weight: 500; 
-    padding: 20%;
     font-size: 15px;
 }
 
@@ -170,6 +169,7 @@ button.btn.btn-secondary.btn-sm.dropdown-toggle {
 .mainBox .btn-group{
     font-size: 16px;
     font-weight: 500; 
+    padding: 1%;
 }  
 
 .mainBox span{
